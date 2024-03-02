@@ -6,10 +6,10 @@ import java.util.List;
 import javax.persistence.NoResultException;
 
 import actions.views.EmployeeConverter;
-import actions.views.EmployeeValidator;
 import actions.views.EmployeeView;
 import constants.JpaConst;
 import models.Employee;
+import models.validators.EmployeeValidator;
 import utils.EncryptUtil;
 
 /**
